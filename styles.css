@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*tekst*/
+h1{
+    text-align: center;
+    padding: 2.5%;
+    font-size: 350%;
+}
+
+/*headeren*/
+header{
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(49, 107, 64, 1);
+    border: solid rgba(196, 51, 50, 1) bottom 10Mpx;
+    align-items: center;
+    justify-content: right;
+    height: fit-content;
+    padding: 1.5%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+#logo{
+    width: 15%;
+    margin-top: 0.5%;
+    padding-right:60%;
+}
+
+/*main content*/
+/*#næsteløb{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 200%;
+    word-spacing: 3%;
+}
+#feddato{
+    text-transform: uppercase;
+}*/ 
+#topbane{
+    width: 70%;
+    position: relative;
+    left:13%;
+    top: 0;
+}
