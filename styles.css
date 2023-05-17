@@ -3,48 +3,349 @@
     padding: 0;
 }
 
-/*tekst*/
-h1{
+/*TYPOGRAFI*/
+h1{ /*Overskrift på siderne*/
     text-align: center;
     padding: 2.5%;
-    font-size: 350%;
+    font-size: 300%;
+    color: rgba(49, 107, 64, 1);
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
 }
 
-/*headeren*/
+h2{/*Underoverskifter*/
+    text-align: center;
+    padding: 2.5%;
+    font-size: 300%;
+}
+
+h4{/*Tekst Oplevelser*/
+    width: auto;
+    padding-top: 3%;
+    padding-right: 20%;
+    padding-left:20%;
+    margin-bottom: 2%;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 500;
+    font-size: larger;
+}
+
+/*HEADER*/
 header{
     background-color: white;
     box-shadow: 0px 8px 16px 0px rgba(49, 107, 64, 1);
     border: solid rgba(196, 51, 50, 1) bottom 10Mpx;
     align-items: center;
     justify-content: right;
-    height: fit-content;
+    height: 60px;
     padding: 1.5%;
     display: flex;
-    align-items: center;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
+}
+nav{
+    display:flex;
+}
+nav a{
+    display: flex;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 150%;
+    color: rgba(49, 107, 64, 1);
+}
+nav a:hover{
+    text-decoration: underline;
 }
 #logo{
-    width: 15%;
+    width: 8%;
     margin-top: 0.5%;
-    padding-right:60%;
+    padding-right:0%;
+    position: absolute;
+    left: 4%;
+    top: 1%;
 }
 
-/*main content*/
-/*#næsteløb{
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    font-size: 200%;
-    word-spacing: 3%;
+/*MAIN*/
+/*Øverst index*/
+#titleindex{ /*grundform1*/
+    height: fit-content;
+    background-color: white;
 }
-#feddato{
-    text-transform: uppercase;
-}*/ 
+#øversteindex{
+    padding-bottom: 3%;
+}
 #topbane{
     width: 70%;
     position: relative;
     left:13%;
     top: 0;
+    z-index:-1;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.væddeløbsbane{
+    background-color: rgba(245, 190, 66, 1);
+    border-style: solid;
+    border-radius:15px;
+    border-color:rgba(49, 107, 64, 1);
+    line-height: 25px;
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-transform: uppercase;
+    color: rgba(49, 107, 64, 1);
+    font-family: 'Oxygen', sans-serif;
+    font-weight:bolder;
+    font-size: 150%;
+    width: 300px;
+}
+.staldene{
+    background-color: rgba(245, 190, 66, 1);
+    border-style: solid;
+    border-radius:15px;
+    border-color:rgba(49, 107, 64, 1);
+    line-height: 25px;
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-transform: uppercase;
+    color: rgba(49, 107, 64, 1);
+    font-family: 'Oxygen', sans-serif;
+    font-weight:bolder;
+    font-size: 150%;
+    width: 300px;
+}
+.madogdrikke{
+    background-color: rgba(245, 190, 66, 1);
+    border-style: solid;
+    border-radius:15px;
+    border-color:rgba(49, 107, 64, 1);
+    line-height: 25px;
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-transform: uppercase;
+    color: rgba(49, 107, 64, 1);
+    font-family: 'Oxygen', sans-serif;
+    font-weight:bolder;
+    font-size: 150%;
+    width: 300px;
+}
+.tribune{
+    background-color: rgba(245, 190, 66, 1);
+    border-style: solid;
+    border-radius:15px;
+    border-color:rgba(49, 107, 64, 1);
+    line-height: 25px;
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-transform: uppercase;
+    color: rgba(49, 107, 64, 1);
+    font-family: 'Oxygen', sans-serif;
+    font-weight:bolder;
+    font-size: 150%;
+    width: 300px;
+}
+.legeplads{
+    background-color: rgba(245, 190, 66, 1);
+    border-style: solid;
+    border-radius:15px;
+    border-color:rgba(49, 107, 64, 1);
+    line-height: 25px;
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-transform: uppercase;
+    color: rgba(49, 107, 64, 1);
+    font-family: 'Oxygen', sans-serif;
+    font-weight:bolder;
+    font-size: 150%;
+    width: 300px;
+}
+
+/* Midte på Index*/
+.mainfeed{
+    display:block;
+}
+.oplevelse{
+    background-color: rgba(173, 162, 142, 1);
+    display:flex;
+    height:1000px;
+}
+.første{
+    width:40%;
+    height: fit-content;
+    text-align: center;
+    position: relative;
+    left: 3%;
+    top: 20%;
+    line-height: 25px;
+    background-color: blue;
+    display: block;
+}
+.anden{
+    position: relative;
+    right: 50%;
+    left:50%;
+    background-color: blue;
+}
+.cirkel{
+    background-color: rgba(245, 190, 66, 1);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color:  rgba(49, 107, 64, 1);
+    border-width: 3px;
+    position: relative;
+    left:21%;
+    top: 2%;
+    z-index: 1;
+}
+.streg{
+    background-color: rgba(245, 190, 66, 1);
+    width: 30px;
+    height: 1000px;
+    border-style: solid;
+    border-color: rgba(49, 107, 64, 1);
+    border-width: 3px;
+    position: relative;
+    left:62%;
+    top: 1%;
+}
+.tredje{
+    width:40%;
+    height: fit-content;
+    text-align: center;
+    position: relative;
+    left: 3%;
+    top: 40%;
+    line-height: 25px;
+    background-color: blue;
+    display: block;
+}
+.oplevelsesbilleder{
+    width: 80%;
+    margin-top: 5%;
+}
+.læsmere{
+    background-color: rgba(245, 190, 66, 1);
+    border-style: solid;
+    border-radius:15px;
+    border-color:rgba(49, 107, 64, 1);
+    line-height: 20px;
+    padding: 1.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    margin-top: 3%;
+    text-transform: uppercase;
+    color: rgba(49, 107, 64, 1);
+    font-family: 'Oxygen', sans-serif;
+    font-weight:bolder;
+    font-size: large;
+    margin-bottom: 5%;
+}
+
+/*MAIN ARTIKEL*/
+#topbanesite{
+    width: 70%;
+    position: relative;
+    left:15%;
+    top: 0;
+    z-index:-1;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.overskriftet{
+    text-transform: uppercase;
+    background-color: white;
+    position:absolute;
+    top: 80%;
+    left: 33%;
+    border-radius:15px;
+}
+.overskriftto{
+    text-transform:inherit;
+    position:absolute;
+    top: 88%;
+    left: 41%;
+    border-radius:15px;
+    color: rgba(49, 107, 64, 1);
+    font-family: 'Cabin', sans-serif;
+    font-size: 200%;
+}
+.info{
+    color: white;
+    background-color: white;
+    
+}
+
+/*FOOTER*/
+footer{
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(49, 107, 64, 1);
+    border: solid rgba(196, 51, 50, 1) 1px;
+    align-items: center;
+    justify-content: right;
+    height: fit-content;
+    padding: 1.5%;
+}
+#logofooter{
+    width: 15%;
+    margin-top: 0.5%;
+    padding-right:0%;
+}
+
+/*Laptop layout:*/
+@media screen and (min-width:768px) {
+    .væddeløbsbane{
+        position: absolute;
+        left: 7%;
+        top: 55%;
+    }
+    .staldene{
+        position: absolute;
+        left: 15%;
+        top: 100%;
+    }
+    .madogdrikke{
+        position: absolute;
+        right: 7%;
+        top: 55%;
+    }
+    .tribune{
+        position: absolute;
+        right:41.5%;
+        top: 35%;
+    }
+    .legeplads{
+        position: absolute;
+        right: 15%;
+        top: 100%;
+    }
+    #knap{
+        display:none;
+    }
+}
+
+/*
+/*Mellem breakpoint laptop:*/
+@media screen and (max-width:875px) {
+    #topbane{
+        display:none;
+    }
+
+
+}
+/*
+
+/*Mobil layout:*/
+@media screen and (max-width:768px){
+    #topbane{
+        display:none;
+    }
+    .væddeløbsbane{
+        position: absolute;
+
+    }
 }
