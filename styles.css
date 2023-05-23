@@ -17,6 +17,7 @@ h2{/*Underoverskifter*/
     text-align: center;
     padding: 2.5%;
     font-size: 300%;
+    font-family: 'Cabin', sans-serif;
 }
 
 h4{/*Tekst Oplevelser*/
@@ -26,8 +27,21 @@ h4{/*Tekst Oplevelser*/
     padding-left:20%;
     margin-bottom: 2%;
     font-family: 'Oxygen', sans-serif;
-    font-weight: 500;
+    font-weight: 550;
     font-size: larger;
+    line-height: 170%;
+}
+
+p{/*Infortekst artiklerne*/
+    font-family: 'Oxygen', sans-serif; 
+    font-size: 120%;
+    line-height: 170%;
+    padding-right: 15%;
+    padding-left:15%;
+}
+
+a{
+    text-decoration: none;
 }
 
 /*HEADER*/
@@ -43,9 +57,11 @@ header{
 }
 nav{
     display:flex;
+    margin-right: 5%;
 }
 nav a{
     display: flex;
+    padding-right: 6%;
     text-decoration: none;
     text-transform: capitalize;
     font-weight: 700;
@@ -73,10 +89,13 @@ nav a:hover{
 #øversteindex{
     padding-bottom: 3%;
 }
+#øversteindex a:hover{
+    text-decoration: underline;
+}
 #topbane{
-    width: 70%;
+    width: 60%;
     position: relative;
-    left:13%;
+    left:18%;
     top: 0;
     z-index:-1;
     margin-top: 3%;
@@ -92,7 +111,7 @@ nav a:hover{
     padding-left: 3%;
     padding-right: 3%;
     text-transform: uppercase;
-    color: rgba(49, 107, 64, 1);
+    color:  rgba(49, 107, 64, 1);
     font-family: 'Oxygen', sans-serif;
     font-weight:bolder;
     font-size: 150%;
@@ -161,6 +180,94 @@ nav a:hover{
     font-weight:bolder;
     font-size: 150%;
     width: 300px;
+}
+#knap{
+    justify-content: center;
+}
+.væddeløbsbaneto{
+    background-color: rgba(245, 190, 66, 1);
+    border-style: solid;
+    border-radius:15px;
+    border-color:rgba(49, 107, 64, 1);
+    line-height: 25px;
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-transform: uppercase;
+    color:  rgba(49, 107, 64, 1);
+    font-family: 'Oxygen', sans-serif;
+    font-weight:bolder;
+    font-size: 150%;
+    width: 300px;
+    margin: 1%;
+}
+.staldeneto{
+    background-color: rgba(245, 190, 66, 1);
+    border-style: solid;
+    border-radius:15px;
+    border-color:rgba(49, 107, 64, 1);
+    line-height: 25px;
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-transform: uppercase;
+    color: rgba(49, 107, 64, 1);
+    font-family: 'Oxygen', sans-serif;
+    font-weight:bolder;
+    font-size: 150%;
+    width: 300px;
+    margin: 1%;
+}
+.madogdrikketo{
+    background-color: rgba(245, 190, 66, 1);
+    border-style: solid;
+    border-radius:15px;
+    border-color:rgba(49, 107, 64, 1);
+    line-height: 25px;
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-transform: uppercase;
+    color: rgba(49, 107, 64, 1);
+    font-family: 'Oxygen', sans-serif;
+    font-weight:bolder;
+    font-size: 150%;
+    width: 300px;
+    margin: 1%;
+}
+.tribuneto{
+    background-color: rgba(245, 190, 66, 1);
+    border-style: solid;
+    border-radius:15px;
+    border-color:rgba(49, 107, 64, 1);
+    line-height: 25px;
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-transform: uppercase;
+    color: rgba(49, 107, 64, 1);
+    font-family: 'Oxygen', sans-serif;
+    font-weight:bolder;
+    font-size: 150%;
+    width: 300px;
+    margin: 1%;
+}
+.legepladsto{
+    background-color: rgba(245, 190, 66, 1);
+    border-style: solid;
+    border-radius:15px;
+    border-color:rgba(49, 107, 64, 1);
+    line-height: 25px;
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-transform: uppercase;
+    color: rgba(49, 107, 64, 1);
+    font-family: 'Oxygen', sans-serif;
+    font-weight:bolder;
+    font-size: 150%;
+    width: 300px;
+    margin: 1%;
 }
 
 /* Midte på Index*/
@@ -247,10 +354,11 @@ nav a:hover{
 }
 
 /*MAIN ARTIKEL*/
+/*øverst*/
 #topbanesite{
     width: 70%;
     position: relative;
-    left:15%;
+    left:13%;
     top: 0;
     z-index:-1;
     margin-top: 3%;
@@ -261,23 +369,62 @@ nav a:hover{
     background-color: white;
     position:absolute;
     top: 80%;
-    left: 33%;
+    left: 30%;
     border-radius:15px;
 }
 .overskriftto{
     text-transform:inherit;
     position:absolute;
     top: 88%;
-    left: 41%;
+    left: 38%;
     border-radius:15px;
     color: rgba(49, 107, 64, 1);
     font-family: 'Cabin', sans-serif;
     font-size: 200%;
 }
+/*content*/
 .info{
+    color: black;
+    text-align: left;
+    padding-top: 85px;
+    font-size: 150%;
+}
+.infoto{
+    color: black;
+    text-align: left;
+    font-size: 150%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+.bokstokol h2{
     color: white;
-    background-color: white;
-    
+    text-transform: uppercase;
+    font-family: 'Oxygen', sans-serif;
+}
+.bokstokol p{
+    padding-top: 3%;
+    padding-bottom: 6%;
+    color: white;
+    text-align: center;
+}
+/*boks*/
+.bokstokol{
+    background-color:rgba(49, 107, 64, 1);
+    display:flex;
+    text-align: center;
+    align-items: center;
+}
+.bokstokol img{
+    width: fit-content;
+}
+
+#galop{
+    width: 50%;
+    text-align: center;
+}
+#trav{
+    width:50%;
+    text-align: center;
 }
 
 /*FOOTER*/
@@ -285,15 +432,23 @@ footer{
     background-color: white;
     box-shadow: 0px 8px 16px 0px rgba(49, 107, 64, 1);
     border: solid rgba(196, 51, 50, 1) 1px;
-    align-items: center;
     justify-content: right;
+    align-items: center;
     height: fit-content;
     padding: 1.5%;
+    height: 300px;
 }
 #logofooter{
-    width: 15%;
+    width: 20%;
     margin-top: 0.5%;
-    padding-right:0%;
+    position: absolute;
+    left: 4%;
+}
+#nav{
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    right: 4%;
 }
 
 /*Laptop layout:*/
@@ -301,43 +456,79 @@ footer{
     .væddeløbsbane{
         position: absolute;
         left: 7%;
-        top: 55%;
+        top: 45%;
     }
     .staldene{
         position: absolute;
         left: 15%;
-        top: 100%;
+        top: 83%;
     }
     .madogdrikke{
         position: absolute;
         right: 7%;
-        top: 55%;
+        top: 45%;
     }
     .tribune{
         position: absolute;
         right:41.5%;
-        top: 35%;
+        top: 29%;
     }
     .legeplads{
         position: absolute;
         right: 15%;
-        top: 100%;
+        top: 83%;
     }
     #knap{
         display:none;
     }
 }
 
-/*
+/*Større breakpoint laptop:*/
+@media screen and (max-width:1060px){
+    .bokstokol{
+        display:block;
+    }
+    #galop{
+        width: 100%;
+    }
+    #trav{
+        width: 100%;
+    }
+    #topbanesite{
+        margin-top: 5%;
+    }
+    .overskriftet{
+        position:unset;
+    }
+    .overskriftto{
+        position: unset;
+    }
+    .info{
+        padding-top: 10px;
+    }
+    .bokstokol p{
+        padding-top: 0%;
+    }
+    #logofooter{
+        position: unset;
+        padding-left: 5%;
+        padding-top: 5%;
+    }
+    #øverstindex{
+        display:none;
+    }
+    #knap{
+        display:block;
+    }
+
+}
+
 /*Mellem breakpoint laptop:*/
 @media screen and (max-width:875px) {
     #topbane{
         display:none;
     }
-
-
 }
-/*
 
 /*Mobil layout:*/
 @media screen and (max-width:768px){
