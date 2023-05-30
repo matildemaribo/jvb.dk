@@ -662,22 +662,6 @@ nav a:hover{
     display:inline-block;
     margin-bottom: 1rem;
 }
-.boksto h2::after{
-    content: '';
-    position: absolute;
-    top:-0.25rem;
-    left:-2rem;
-    bottom: -0.25rem;
-    width: calc(100% + 4rem);
-    background-color: blanchedalmond;
-    z-index: -1;
-    transform: scaleX(0.06);
-    transform-origin: left;
-    transition: transform 250ms ease-in;
-}
-.boksto h2:hover .boksto h2::after{
-    transform: scaleX(1);
-}
 .boksto h3{
     color: black;
     text-transform: uppercase;
@@ -686,33 +670,13 @@ nav a:hover{
 .boksto p{
     padding-top: 1%;
     padding-bottom: 2%;
-    color: transparent;
+    color: black;
     text-align: left;
     position: relative;
     margin: 0;
     z-index: 1;
     transition: color 150ms;
     transition-delay: 350ms;
-}
-.boksto p::after{
-    content: '';
-    position: absolute;
-    top:-0.75rem;
-    bottom:-0.75rem;
-    left: -0.75rem;
-    right:-0.75rem;
-    background-color: aquamarine;
-    z-index: -1;
-    transform: scaleY(0);
-    transition: transform 250ms ease-in;
-    transform-origin: top;
-    transition-delay: 250ms;
-}
-.boksto p:hover .boksto p{
-    color: black;
-}
-.boksto p:hover .boksto p::after{
-    transform: scaleY(1);
 }
 /*boks et billede og tekst type 2*/
 .bokstoomvendt{
